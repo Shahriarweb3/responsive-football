@@ -151,3 +151,60 @@ p{
     margin-left: 110px;
     padding-right: 50px;
 }
+/* Mobile Device */
+/* Responsive Queries */
+@media only screen and (max-width:360px) {
+    
+    body{
+        width: 360px;
+    }
+    .copa-tournament{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 360px;
+        height: 695px;
+        background-color: red;
+    }
+    .all-players{
+        margin: 10px 15px 10px -15px;
+    }
+    .top-players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .middle-players{
+        display: flex; 
+        flex-direction: column;
+    }
+    .third-players{
+        display: flex;
+        flex-direction: column;
+    }
+    .highlights-area{
+        display: none;
+    }
+    .footer-area{
+        margin-left:0;
+    }
+    .logo img{
+        margin-left: 60px;
+    }
+    .copyright{
+        font-size: 8px;
+        margin-left: 140px;
+    }
+    .social-icon img{
+        width: 60%;
+    }
+    .social-icon{
+        margin-left: 120px;
+    }
+    .tournament-title{
+        margin-left: 15px;
+    }
+    #title{
+        font-size: 36px;
+        line-height: 70px;
+    }
+        
+}
